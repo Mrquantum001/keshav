@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>keshav</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styling.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body >
+    <header>
+      <div class="hidden_menu" ><img onmouseover="show_menu(false)" src="menu-hamburger-navigation-512.webp" alt=""></div>
+      <div class="nav">
+        <nav class="nav1">
+          <li class="removeable">MoE</li>
+          <li class="removeable">UGC</li>
+          <li class="removeable">CERTIFICATE OF REGISTRATION</li>
+          <li class="removeable">DU</li>
+          <li class="removeable">NCWEB</li>
+        </nav>
+        <nav class="nav2">
+          <li class="removeable">ONLINE PAYMENT</li>
+          <li class="removeable">ALUMNI</li>
+          <li>NAAC</li>
+          <li>NIRF</li>
+          <li>LOGIN</li>
+          <li class="hindi">हिन्दी</li>
+        </nav>
+      </div>
+      <div class="subnav">
+        <div class="college_banner">
+          <div class="college_img">
+            <img src="logo.png" alt="" />
+          </div>
+          <div class="college_txt">
+            <h3>KESHAV MAHAVIDYALAYA</h3>
+            <h5>University of Delhi</h5>
+            <h5>NAAC Accredited 'A' Grade Cycle 2</h5>
+            <!-- <h5>Estd. in 1994, fully funded by Govt of NCT Delhi</h5> -->
+          </div>
+        </div>
+        <div class="submenu" id="submenu">
+          <li><a class="sub_head" href="#">The College <small>&#x25BC</small></a></li>
+          <li><a href="#" class="sub_head" >Administration <small>&#x25BC</small></a></li>
+          <li><a href="#" class="sub_head" >Academics <small>&#x25BC</small></a></li>
+          <li><a href="#" class="sub_head" >Admissions <small>&#x25BC</small></a></li>
+          <li><a href="#" class="sub_head" >Girls Hostel <small>&#x25BC</small></a></li>
+          <li><a href="#" class="sub_head" >Students corner <small>&#x25BC</small></a></li>
+          <li><a href="#" class="sub_head" >IQAC</a></li>
+        </div>
+      </div>
+    </header>
+    <section class="main_board" onclick="hidemenu()">
+        <img  id="banner" src="IMG-20230202-WA0035.jpg" alt="" >
+        <div class="info_board">
+            <div class="menu" id="college">
+                <!-- <span><a href="">Vision and Mission</a></span>
+                <span><a href="">History</a></span>
+                <span><a href="">Governing Body</a></span>
+                <span><a href="">Executive Team</a></span>
+                <span><a href="">Principal's Desk</a></span>
+                <span><a href="">Organogram</a></span>
+                <span><a href="">Infrastructure</a></span>
+                <span><a href="">Facilities</a></span>
+                <span><a href="">Wall of Honour</a></span>
+                <span><a href="#">Code of Professional Ethics</a></span> -->
+            </div>
+        </div>
+        <div class="slider">
+            <button class="sld" id="sl1" value="0"></button>
+            <button class="sld" id="sl2" value="1"></button>
+            <button class="sld" id="sl3" value="2"></button>
+            <button class="sld" id="sl4" value="3"></button>
+            <button class="sld" id="sl5" value="4"></button>
+        </div>
+    </section >
+    <section class="info_section" onclick="hidemenu()">
+        <div class="alert">
+            <h3>ALERT &#8250;</h3>
+        </div>
+    </section>
+    <div class="principal" onclick="hidemenu()">
+      <div class="prpl_img" id="prpl_img"onclick="readmore()"><img src="Principal.jpg" alt="">
+      </div>
+      <div class="prpl_info" onclick="reset_img()">
+        <h1 style="color: darkorange;font-size: 25px;">Prof.Madhu Pruthi</h1>
+        <h2>Principal</h2>
+        <p style="font-weight: 300;">Keshav Mahavidyalaya is an institution that has always believed in excellence through continuous learning by doing. We strive to create leaders of tomorrow by giving shape and providing direction to the aspirations and dreams of the young minds who step into this temple of learning.</p>
+      </div>
+    </div>
+    <section class="link-sec" onclick="hidemenu()">
+      
+
+      <div class="links">
+        <h2 class="unq">Quick</h2><h2 class="unq2">Links</h2>
+      </div>
+      <div class="link_items">
+        <div class="link_pair">Academic Calender</div>
+        <div class="link_pair" style="border-right: 2px red solid;">Mentor Mentee</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair" style="border-right: 2px red solid;">Attendance</div>
+        <div class="link_pair">Student Forms</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair">e-Resources</div>
+        <div class="link_pair"style="border-right: 2px red solid;">Girls Hostel Forms</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair"style="border-right: 2px red solid;">French & German</div>
+        <div class="link_pair">Feedback</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair">GE Options</div>
+        <div class="link_pair"style="border-right: 2px red solid;">Discipline</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair"style="border-right: 2px red solid;">Internship</div>
+        <div class="link_pair">Staff Forms</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair">Placement Cell</div>
+        <div class="link_pair"style="border-right: 2px red solid;">Ph.D/M.Phil</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair" style="border-right: 2px red solid;">Broadcasting</div>
+        <div class="link_pair">Research Projects</div>
+      </div>
+      <div class="link_items">
+        <div class="link_pair">Time Table</div>
+        <div class="link_pair" style="border-right: 2px red solid;">Teaching Plan</div>
+      </div>
+    </section>
+    <section class="downloads">
+      <div class="notice">
+        <div class="notice_head"></div>
+      </div>
+      <div class="notice" style="height: 50vh;">
+        <div class="notice_head"></div>
+      </div>
+    </section>
+    <section style="background-color: rgb(224, 224, 224); margin-top: 2vh;display: flex;flex-direction: column;" onclick="hidemenu()">
+      <div class="gall">
+        <h1 class="unq">Our</h1><h1 class="unq2">Gallery</h1></div>
+      </div>
+      <h2 style="margin: auto;">Memories of the unforgottable past</h2>
+      <div class="pics">
+        <img src="https://imgs.search.brave.com/H0CCooS9jPHS8Xiw8w0Zf7HAlYPUKArZu79Zq7_sCKA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM2/OTk3Mjc3Ny9waG90/by91bml2ZXJzaXR5/LWNsYXNzcm9vbS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/MC1BZlJTcWV6bDhx/Rk9VR09rNC0wYXlt/RDFzVzZfbnV1Z2VQ/VG91aV9aTT0" alt="">
+      </div>
+      <div class="pics" style="background-color:yellow;">
+        <img src="https://imgs.search.brave.com/rSUq3VB2LRCsOghrfwJe9_-vTPbYTAiMqEb_2nm7tyk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjMwNTA4NTQwNTgt/OGRmOTAxMTBjOWYx/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRKOGZH/TnZiR3hsWjJVbE1q/QmpZVzF3ZFhOOFpX/NThNSHg4TUh4OGZE/QT0.jpeg" alt="">
+      </div>
+      <div class="pics" style="background-color:magenta;">
+      <img src="https://imgs.search.brave.com/deLk9OrQm0Xtbt1ApqsNRIYzb2mzQ5tLPbE2dDFUk6Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODcx/NzExNTAwL3Bob3Rv/L3VuaXZlcnNpdHkt/cHJvZmVzc29yLWFk/ZHJlc3NpbmctaGlz/LXB1cGlscy1kdXJp/bmctbGVjdHVyZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/bDFSSnY0eWkzUkVI/YjE5enhVaTcyeU4y/d3VFWUI4U3VHLU94/NkVrMW50ST0" alt=""></div>
+      </div>
+      <div class="pics" style="background-color:crimson;">
+      <img src="https://imgs.search.brave.com/vLsQGEkmx9IDO6osj6Z7egFjpasdmwjIie6QyvQaO_I/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8w/NS8xOC8xMS8yNS9s/aWJyYXJ5LTE0MDAz/MTNfNjQwLmpwZw" alt=""></div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="u_foot">
+        <div class="External_links">
+          <ul>
+            <h1 class="foot_heading list-disc bor">EXTERNAL LINKS</h1>
+            <li>
+              <a href=""><i class="bi bi-chevron-right"></i>DU</a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-chevron-right"></i>MHRD</a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-chevron-right"></i>AISHE</a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-chevron-right"></i>UGC</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="complaints">
+          <ul>
+            <h1 class="foot_heading bor">COMPLAINTS</h1>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="">SC/ST/OBC Complaints</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i>
+              <a href="">Internal Complaints Committee</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i>
+              <a href="">RTI</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i>
+              <a href="">Anti Ragging</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="address">
+          <div
+            style="border: 1px solid; border-radius: 17px; padding: 28px 0px"
+          >
+            <div style="text-align: center">KESHAV MAHAVIDYALAYA</div>
+            <div style="text-align: center">(University of Delhi)</div>
+            <div style="text-align: center">H-4-5 Zone, Pitampura,</div>
+            <div style="text-align: center">
+              Near Sainik Vihar, Delhi-110034
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="m_foot">
+        <div class="contacts">
+          <ul>
+            <h1 class="foot_heading list-disc bor">CONTACTS</h1>
+            <li>
+              <p><i class="cont_symb bi bi-phone"></i>phone:</p>
+            </li>
+            <li>
+              <p><i class="cont_symb bi bi-printer"></i>Fax:</p>
+            </li>
+            <li>
+              <a href=""
+                ><i class="cont_symb bi bi-envelope"></i>
+                principal@keshav.du.ac.in</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><i class="cont_symb bi bi-telephone"></i>Important conacts</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="reach_us">
+          <h1 class="foot_heading bor">REACH US</h1>
+          <div class="map-container">
+            <iframe
+              class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.062569043476!2d77.11767277451233!3d28.687774881571666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03c34fb126e3%3A0xb857945e72aca18!2sKeshav%20Mahavidyalaya!5e0!3m2!1sen!2sin!4v1713816555515!5m2!1sen!2sin"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="social">
+          <div class="social_inner">
+            <i class="social_icon bi bi-twitter"></i
+            ><i class="social_icon bi bi-facebook"></i
+            ><i class="social_icon bi bi-instagram"></i
+            ><i class="social_icon bi bi-linkedin"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="l_foot">
+        <div class="cpyright">
+          <div class="text-center">Copyright © 2024 Keshav Mahavidyalaya</div>
+          <div class="text-center">
+            Developed & Maintained by Web Development Team, Keshav
+            Mahavidyalaya.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="array.js"></script>
+  </body>
+</html>

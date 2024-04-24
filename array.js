@@ -1,0 +1,1 @@
+const imgs = [["sl1","IMG-20230202-WA0035.jpg"],["sl2","IMG-20230425-WA0010.jpg"],["sl3","IMG-20230426-WA0043.jpg"],["sl4","IMG-20230531-WA0025.jpg"],["sl5","long_keshav.jpg"]]

@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.foot {
+  color: white;
+}
+.u_foot {
+  @apply py-7 md:px-20 md:grid min-h-9 bg-slate-900 md:grid-cols-3;
+}
+.m_foot {
+  @apply pb-7 md:px-20 md:grid min-h-9 bg-slate-900 md:grid-cols-3;
+}
+.l_foot {
+  @apply min-h-3 bg-slate-800;
+}
+.External_links {
+  @apply mx-5 ps-10 py-8;
+}
+.complaints {
+  @apply mx-5 ps-10 py-8;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @apply mx-5 ps-10 pe-10 py-8;
+}
+
+.cont_symb {
+  @apply me-4;
+}
+
+.contacts {
+  @apply mx-5 ps-10 py-8;
+}
+
+.reach_us {
+  @apply mx-5 ps-10 pe-10 py-8;
+}
+
+.foot_heading {
+  @apply mb-5;
+
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.cpyright {
+  @apply px-12 py-3 flex flex-col items-center;
+}
+
+.map-container {
+  @apply h-52 md:h-40;
+  width: 100%;
+}
+
+.bor {
+  border-bottom: 2px solid;
+  @apply me-10;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+.social {
+  @apply mx-5 ps-10 pe-10 py-8 flex justify-center items-center;
+}
+.social_icon {
+  @apply text-3xl md:text-7xl mx-4 my-4;
+  /* font-size: 40px; */
+}
+.social_inner {
+  @apply md:w-52 md:h-40;
+}
